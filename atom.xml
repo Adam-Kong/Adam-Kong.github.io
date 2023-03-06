@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>孔令杰的考研笔记 ———— 无用之用,方为大用</title>
+  
+  <subtitle>考研之路</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-03-06T07:49:10.671Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>AdamK</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>基础公式</title>
+    <link href="http://example.com/2023/03/04/Math%20Exercise%20Set/%E5%9F%BA%E7%A1%80%E5%85%AC%E5%BC%8F/%E5%9F%BA%E7%A1%80%E5%85%AC%E5%BC%8F/"/>
+    <id>http://example.com/2023/03/04/Math%20Exercise%20Set/%E5%9F%BA%E7%A1%80%E5%85%AC%E5%BC%8F/%E5%9F%BA%E7%A1%80%E5%85%AC%E5%BC%8F/</id>
+    <published>2023-03-04T14:58:37.000Z</published>
+    <updated>2023-03-06T07:49:10.671Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="三角函数基本转换注意fx">三角函数基本转换(注意F(x))</h2><p><span class="math display">\[\begin{gather}奇变偶不变,符号看相限,默认 0&lt; \alpha&lt;\frac{\pi}{2} \\\sin(\frac{\pi}{2}+\alpha) = \cos\alpha,  \sin(\frac{\pi}{2}-\alpha) =\cos\alpha  \\\cos(\frac{\pi}{2}+\alpha) = -\sin\alpha,  \cos(\frac{\pi}{2}-\alpha) =\sin\alpha \\\cos(\pi+\alpha) = -\cos\alpha,  \sin(\pi-\alpha) = \sin\alpha \\\cos(\pi+\alpha) = -\cos\alpha,  \cos(\pi-\alpha) = -\cos\alpha \\---\\\sin(\alpha \pm \beta) = \sin\alpha\cos\beta \pm \sin\beta \cos\alpha\\\cos(\alpha \pm \beta) = \cos\alpha\cos\beta \mp\sin\alpha\sin\beta\\\tan(\alpha\pm\beta) =\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}\\\cot(\alpha\pm\beta) = \frac{\cot\alpha\cot\beta\mp +1}{\cot\beta\pm\cot\alpha}\\\sin 2\alpha = 2\sin\alpha\cos\alpha\\\cos2\alpha =\cos^2\alpha-\sin^2\alpha=1-2\sin^2\alpha=2\cos^2\alpha-1\\\sin^3\alpha=-4\sin^3\alpha+3\sin\alpha,\cos^3\alpha=4\cos^3\alpha-3\cos\alpha\\\tan 2\alpha=\frac{2\tan\alpha}{1-\tan^2\alpha},\cot2^\alpha=\frac{\cot^2\alpha - 1}{2\cot\alpha}\\\end{gather}\]</span></p><h2 id="三角函数求导公式-求导常用公式注意fx">三角函数求导公式 +求导常用公式(注意F(x))</h2><p><span class="math display">\[\begin{gather}y=\sin x \quad y&#39; = \cos x;\quad y=\cos x \quad y&#39;= -\sin x;\\y=\tan x \quad y&#39; =\sec^2x;\quad y = \cot x \quad y&#39;=-\csc^2x;\\y= \sec x \quad y&#39;=\sec x \tan x;\quad y = \csc x\quad y&#39;=-\cscx\cot x;\\y = \arcsin x \quad y&#39; = \frac{1}{\sqrt{1-x^2}}; \quad y =\arccos x \quad y&#39; = -\frac{1}{\sqrt{1-x^2}};\\y = \arctan x \quad y&#39; = \frac{1}{1+x^2};\quad y = arccot \ x =-\frac{1}{1+x^2};\\(x^a)&#39;= ax^{a-1},\quad (a^x)&#39;=a^x\ln a,\quad (\log _ax)&#39;=\frac{1}{x\ln a}\\(\ln |x|)&#39; = \frac{1}{x}\\[\ln (x + \sqrt{x^2 + 1})]&#39; = \frac{1}{\sqrt{x^2 + 1}},\quad [\ln (x+ \sqrt{x^2 - 1})]&#39; = \frac{1}{\sqrt{x^2 - 1}}\end{gather}\]</span></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;三角函数基本转换注意fx&quot;&gt;三角函数基本转换(注意F(x))&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&quot;math display&quot;&gt;\[
+\begin{gather}
+奇变偶不变,符号看相限,默认 0&amp;lt; \alpha&amp;lt;\frac{\pi}{2} </summary>
+      
+    
+    
+    
+    <category term="Math Exercise Set" scheme="http://example.com/categories/Math-Exercise-Set/"/>
+    
+    <category term="基础公式" scheme="http://example.com/categories/Math-Exercise-Set/%E5%9F%BA%E7%A1%80%E5%85%AC%E5%BC%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>例题6.3</title>
+    <link href="http://example.com/2023/03/02/Math%20Exercise%20Set/%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86/%E4%BE%8B%E9%A2%986.3/"/>
+    <id>http://example.com/2023/03/02/Math%20Exercise%20Set/%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86/%E4%BE%8B%E9%A2%986.3/</id>
+    <published>2023-03-02T15:36:42.000Z</published>
+    <updated>2023-03-06T07:42:33.456Z</updated>
+    
+    <content type="html"><![CDATA[<p><span class="math display">\[\begin{gather}设f(x)在[0,1]上具有一阶连续导数,f(0) = 0,证明:存在\xi \in [0,1] \\使得f&#39;(\xi)=2\int_0^2f(x)dx\end{gather}\]</span></p><p>思路：</p><p>（1）题干里面有一阶连续导数，让我们证明的有是导数=F(x),因此我们就可以从一阶导数入手</p><p>（2）积分是一个常数值，我们又看到自变量的取值范围+ 连续我们就想到可以用介值定理，假设f'(x)的范围在m到M之间，我们只需证明出积分的范围也在m到M之间即可</p><p>（3）我们用拉格朗日中值定理将f'(x)与f(x)联系在一起，然后再用f(x)与积分联系在一起</p><p>求解过程（最值定理+介值定理+拉格朗日中值定理）</p><figure><img src="/2023/03/02/Math%20Exercise%20Set/%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86/%E4%BE%8B%E9%A2%986.3/6.1.png" alt="image-20230304131350892"><figcaption aria-hidden="true">image-20230304131350892</figcaption></figure><p>另一个求解过程（积分中值定理+拉格朗日中值定理）</p><figure><img src="/2023/03/02/Math%20Exercise%20Set/%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86/%E4%BE%8B%E9%A2%986.3/image-20230304133150447.png" alt="image-20230304133150447"><figcaption aria-hidden="true">image-20230304133150447</figcaption></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;span class=&quot;math display&quot;&gt;\[
+\begin{gather}
+设f(x)在[0,1]上具有一阶连续导数,f(0) = 0,证明:存在\xi \in [0,1] \\
+使得f&amp;#39;(\xi)=2\int_0^2f(x)dx
+\end{g</summary>
+      
+    
+    
+    
+    <category term="Math Exercise Set" scheme="http://example.com/categories/Math-Exercise-Set/"/>
+    
+    <category term="中值定理" scheme="http://example.com/categories/Math-Exercise-Set/%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86/"/>
+    
+    
+    <category term="最值定理" scheme="http://example.com/tags/%E6%9C%80%E5%80%BC%E5%AE%9A%E7%90%86/"/>
+    
+    <category term="介值定理" scheme="http://example.com/tags/%E4%BB%8B%E5%80%BC%E5%AE%9A%E7%90%86/"/>
+    
+    <category term="拉格朗日中值定理" scheme="http://example.com/tags/%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DESCRIBE A PLACE YOU ENJOY</title>
+    <link href="http://example.com/2023/03/01/English%20Composition%20Exercise/March/DESCRIBE%20A%20PLACE%20%20ENJOY/"/>
+    <id>http://example.com/2023/03/01/English%20Composition%20Exercise/March/DESCRIBE%20A%20PLACE%20%20ENJOY/</id>
+    <published>2023-03-01T05:15:32.000Z</published>
+    <updated>2023-03-02T15:20:46.352Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Write a paragraph describing your favorite place to visit. It couldbe a city, a park, a beach, or any other location that you love.Describe what you like about it and why you enjoy going there.</p></blockquote><p>One of my favorite places to visit is a quiet and peaceful beachlocated near my hometown. Whenever I go there, I feel a sense ofrelaxation that helps me escape from the stresses of everyday life. Thenatural scenery is absolutely breathtaking, with crystal-clear watersand soft white sand. The sound of waves crashing against the shore andthe gentle breeze blowing through my hair create a calming atmospherethat makes me feel at ease. I also love the fact that the beach is notovercrowded, which allows me to enjoy the tranquility and serenity ofthe place. Overall, it's the perfect destination for me to unwind andrecharge my batteries.</p><h3 id="notes">NOTES</h3><ul><li>tranquility: Tranquility means a state of calmness and peacefulness,free from disturbance or turmoil. It's often used to describe a place orsituation that is serene and quiet, and where one can relax and unwind.For example, someone might describe a peaceful beach or a quiet forestas having a sense of tranquility.</li><li>breathtaking: Breathtaking means that something is so impressive orbeautiful that it literally takes your breath away or makes you feel asthough you are unable to breathe for a moment. It's often used todescribe natural landscapes or scenery that are incredibly stunning andawe-inspiring. For example, a breathtaking view from a mountaintop or abreathtaking sunset over the ocean.</li><li>as though: "As though" is a conjunction that is used to make acomparison between two things or situations that may not actually betrue. It is similar in meaning to "as if". For example, "She acted asthough she didn't know me" means that she behaved in a way thatsuggested she didn't know me, even though she might have actually knownme. It's often used to express hypothetical or imaginarysituations.</li></ul><hr><h3 id="tip">Tip</h3><p>The above essay have been modified from CHATGPT which is very helpfulfor my English.</p><p>At the end, I want to say thank you for its help. And let it modifywhat I'm saying.</p><p><strong>My Exact Words:</strong> Thank you so much. I have learnedlots of knowledge from you at this time. If possible, could you help memake my words up there more coherent and smooth.</p><p><strong>Its Modification:</strong> Thank you so much for all yourhelp. I've learned a lot from you during our conversation today.</p><p>This is a slight rephrasing that uses a more conversational tone andincludes a reference to our conversation, which makes the sentence morespecific and personal.</p><p>😀😀😀 It's a wonderful modification!!!!!!</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Write a paragraph describing your favorite place to visit. It could
+be a city, a park, a beach, or any other location that</summary>
+      
+    
+    
+    
+    <category term="English Composition Exercise" scheme="http://example.com/categories/English-Composition-Exercise/"/>
+    
+    <category term="March" scheme="http://example.com/categories/English-Composition-Exercise/March/"/>
+    
+    
+    <category term="English Composition Exercise" scheme="http://example.com/tags/English-Composition-Exercise/"/>
+    
+    <category term="Beach" scheme="http://example.com/tags/Beach/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2023/02/28/hello-world/"/>
+    <id>http://example.com/2023/02/28/hello-world/</id>
+    <published>2023-02-28T15:11:42.954Z</published>
+    <updated>2023-03-04T06:21:54.032Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your veryfirst post. Check <a href="https://hexo.io/docs/">documentation</a> formore info. If you get any problems when using Hexo, you can find theanswer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> oryou can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>. 😊😊😊🔥</p><h2 id="quick-start">Quick Start</h2><h3 id="create-a-new-post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="run-server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="generate-static-files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="deploy-to-remote-sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very
+first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; fo</summary>
+      
+    
+    
+    
+    
+    <category term="分类2" scheme="http://example.com/tags/%E5%88%86%E7%B1%BB2/"/>
+    
+  </entry>
+  
+</feed>
