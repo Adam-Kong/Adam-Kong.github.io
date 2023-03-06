@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-03-06T11:06:05.282Z</updated>
+  <updated>2023-03-06T12:52:15.022Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,17 +21,20 @@
     <link href="http://example.com/2023/03/04/Math%20Exercise%20Set/%E5%9F%BA%E7%A1%80%E5%85%AC%E5%BC%8F/%E5%9F%BA%E7%A1%80%E5%85%AC%E5%BC%8F/"/>
     <id>http://example.com/2023/03/04/Math%20Exercise%20Set/%E5%9F%BA%E7%A1%80%E5%85%AC%E5%BC%8F/%E5%9F%BA%E7%A1%80%E5%85%AC%E5%BC%8F/</id>
     <published>2023-03-04T14:58:37.000Z</published>
-    <updated>2023-03-06T11:06:05.282Z</updated>
+    <updated>2023-03-06T12:52:15.022Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="三角函数基本转换注意fx">三角函数基本转换(注意F(x))</h2><p><span class="math display">\[\begin{equation}奇变偶不变,符号看相限,默认 0&lt; \alpha &lt;\frac{\pi}{2} \\\sin(\frac{\pi}{2}+\alpha) = \cos \alpha,  \sin(\frac{\pi}{2}-\alpha) =\cos \alpha  \\\cos(\frac{\pi}{2}+\alpha) = -\sin \alpha,  \cos(\frac{\pi}{2}-\alpha) =\sin \alpha \\\cos(\pi+\alpha) = -\cos \alpha,  \sin(\pi-\alpha) = \sin \alpha \\\cos(\pi+\alpha) = -\cos \alpha,  \cos(\pi-\alpha) = -\cos \alpha \\\end{equation}\]</span> <span class="math display">\[\sin(\alpha \pm \beta) = \sin\alpha\cos\beta \pm \sin\beta \cos\alpha\\\cos(\alpha \pm \beta) = \cos\alpha\cos\beta \mp\sin\alpha\sin\beta\\\tan(\alpha\pm\beta) =\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}\\\cot(\alpha\pm\beta) = \frac{\cot\alpha\cot\beta\mp +1}{\cot\beta\pm\cot\alpha}\\\sin2\alpha = 2\sin\alpha\cos\alpha\\\cos2\alpha =\cos^2\alpha-\sin^2\alpha=1-2\sin^2\alpha=2\cos^2\alpha-1\\\sin^3\alpha=-4sin^3\alpha+3\sin\alpha,\cos^3\alpha=4\cos^3\alpha-3\cos\alpha\\\tan2\alpha=\frac{2\tan\alpha}{1-\tan^2\alpha},\cot2^\alpha=\frac{\cot^2\alpha- 1}{2\cot\alpha}\\\]</span></p><h2 id="三角函数求导公式-求导常用公式注意fx">三角函数求导公式 +求导常用公式(注意F(x))</h2><p><span class="math display">\[y=\sin x \quad y&#39; = \cos x;\quad y=\cos x \quad y&#39;= -\sin x;\\y=\tan x \quad y&#39; =\sec^2x;\quad y = \cot x \quad y&#39;=-\csc^2x;\\y= \sec x \quad y&#39;=\sec x \tan x;\quad y = \csc x\quad y&#39;=-\cscx\cot x;\\y = \arcsin x \quad y&#39; = \frac{1}{\sqrt{1-x^2}}; \quad y =\arccos x \quad y&#39; = -\frac{1}{\sqrt{1-x^2}};\\y = \arctan x \quad y&#39; = \frac{1}{1+x^2};\quad y = arccot \ x =-\frac{1}{1+x^2};\\(x^a)&#39;= ax^{a-1},\quad (a^x)&#39;=a^x\ln a,\quad (\log _ax)&#39;=\frac{1}{x\ln a}\\(\ln |x|)&#39; = \frac{1}{x}\\[\ln (x + \sqrt{x^2 + 1})]&#39; = \frac{1}{\sqrt{x^2 + 1}},\quad [\ln (x+ \sqrt{x^2 - 1})]&#39; = \frac{1}{\sqrt{x^2 - 1}}\]</span></p>]]></content>
+    <content type="html"><![CDATA[<ul><li>三角函数</li><li>求导公式</li><li>泰勒公式（无穷小转化）</li></ul><h2 id="三角函数基本转换注意fx">三角函数基本转换(注意F(x))</h2><p><span class="math display">\[\begin{array}{l}奇变偶不变,符号看相限,默认0&lt; \alpha &lt;\frac{\pi}{2} \\\sin(\frac{\pi}{2}+\alpha) = \cos \alpha, \quad\sin(\frac{\pi}{2}-\alpha) = \cos \alpha  \\\cos(\frac{\pi}{2}+\alpha) = -\sin \alpha,  \quad\cos(\frac{\pi}{2}-\alpha) = \sin \alpha \\\sin(\pi+\alpha) = -\sin \alpha,  \quad \sin(\pi-\alpha) = \sin \alpha\\\cos(\pi+\alpha) = -\cos \alpha,  \quad \cos(\pi-\alpha) = -\cos \alpha\\---------------------------------------------------------------------------------------------\\\sin(\alpha \pm \beta) = \sin\alpha\cos\beta \pm \sin\beta \cos\alpha\\\cos(\alpha \pm \beta) = \cos\alpha\cos\beta \mp\sin\alpha\sin\beta\\\tan(\alpha\pm\beta) =\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}\\\cot(\alpha\pm\beta) = \frac{\cot\alpha\cot\beta\mp +1}{\cot\beta\pm\cot\alpha}\\\sin2\alpha = 2\sin\alpha\cos\alpha \\\cos2\alpha =\cos^2\alpha-\sin^2\alpha=1-2\sin^2\alpha=2\cos^2\alpha-1\\\sin^3\alpha=-4sin^3\alpha+3\sin\alpha,\cos^3\alpha=4\cos^3\alpha-3\cos\alpha\\\tan2\alpha=\frac{2\tan\alpha}{1-\tan^2\alpha},\cot2^\alpha=\frac{\cot^2\alpha- 1}{2\cot\alpha}\\\end{array}\]</span></p><h2 id="三角函数求导公式-求导常用公式注意fx">三角函数求导公式 +求导常用公式(注意F(x))</h2><p><span class="math display">\[\begin{array}{l}y=\sin x \quad y&#39; = \cos x;\quad y=\cos x \quad y&#39;= -\sin x;\\y=\tan x \quad y&#39; =\sec^2x;\quad y = \cot x \quad y&#39;=-\csc^2x;\\y= \sec x \quad y&#39;=\sec x \tan x;\quad y = \csc x\quad y&#39;=-\cscx\cot x;\\y = \arcsin x \quad y&#39; = \frac{1}{\sqrt{1-x^2}}; \quad y =\arccos x \quad y&#39; = -\frac{1}{\sqrt{1-x^2}};\\y = \arctan x \quad y&#39; = \frac{1}{1+x^2};\quad y = arccot \ x =-\frac{1}{1+x^2};\\(x^a)&#39;= ax^{a-1},\quad (a^x)&#39;=a^x\ln a,\quad (\log _ax)&#39;=\frac{1}{x\ln a}\\(\ln |x|)&#39; = \frac{1}{x}\\[\ln (x + \sqrt{x^2 + 1})]&#39; = \frac{1}{\sqrt{x^2 + 1}},\quad [\ln (x+ \sqrt{x^2 - 1})]&#39; = \frac{1}{\sqrt{x^2 - 1}}\\---------------------------------------------------------------------------------------------\\\end{array}\]</span></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;三角函数基本转换注意fx&quot;&gt;三角函数基本转换(注意F(x))&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&quot;math display&quot;&gt;\[
-\begin{equation}
-奇变偶不变,符号看相限,默认 0&amp;lt; \alpha &amp;lt;\frac{\pi}{</summary>
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;三角函数&lt;/li&gt;
+&lt;li&gt;求导公式&lt;/li&gt;
+&lt;li&gt;泰勒公式（无穷小转化）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;三角函数基本转换注意fx&quot;&gt;三角函数基本转换(注意F(x))&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&quot;math display&quot;&gt;</summary>
       
     
     
